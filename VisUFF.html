@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>VisUFF</title>
+<link rel="stylesheet" href="d3-brush.css">
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<script src="VisUFF.js"></script>  
+<script src="histogram.js"></script> 
+<script src="scatterplot.js"></script> 
+<script src="timeseries.js"></script> 
+</head>
+
+<body>
+    <h4> Dados gerados aleatoriamente: </h4>
+    
+    <button id="bt1" onclick="myApp.run(1)"> Scatterplot </button>
+    <button id="bt2" onclick="myApp.run(2)"> Histograma </button>
+    <button id="bt3" onclick="myApp.run(3)"> Série temporal</button>
+    
+    <h4> Dados pré-determinados: </h4>
+    
+    <button id="bt4" onclick="myApp.run(4)"> Scatterplot </button>
+    <button id="bt5" onclick="myApp.run(5)"> Histograma </button>
+    <button id="bt6" onclick="myApp.run(6)"> Série temporal</button>
+    
+    <div id="mainDiv"></div>
+    <div id="mainDiv2"></div>
+    <div id="mainDiv3"></div>
+    
+    
+    
+
+</html>
